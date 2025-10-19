@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio Universitario</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">    
+</head>
+<body>
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="fade-in">Hola, soy <span style="color: #d836f1;">Sorayda Santin</span></h1>
+                <p class="fade-in delay-1">Estudiante de Ingeniería en Gestión y Desarrollo de Software</p>
+                <div class="about-image">
+                    <div class="image-container">
+                        <img src="img/yo.jpg" alt="Mi foto">
+                        <div class="image-border"></div>
+                    </div>
+                </div>
+              
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Mí -->
+    <section id="sobre-mi" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>Sobre Mí</h2>
+                    <p>Soy Técnico Superior Universitario en Tecnologías de la Información, Área Desarrollo de Software Multiplataforma. 
+                        Actualmente cursando la Ingeniería en Desarrollo y Gestión de Software en la Universidad Tecnológica de Escuinapa. 
+                        Experiencia en desarrollo de aplicaciones web. 
+                        Comprometida, organizada, sé trabajar en equipo y estoy siempre dispuesta a aprender algo nuevo.</p>
+                    
+                    <h3>Mis conocimientos</h3>
+                    <div class="skills">
+                        <div class="skill-chip"><i class="fab fa-html5"></i> HTML</div>
+                        <div class="skill-chip"><i class="fab fa-css3-alt"></i> CSS</div>
+                        <div class="skill-chip"><i class="fab fa-js"></i> JavaScript</div>
+                        <div class="skill-chip"><i class="fab fa-php"></i> PHP</div>
+                        <div class="skill-chip"><i class="fab fa-laravel"></i> Laravel</div>
+                        <div class="skill-chip"><i class="fab fa-git-alt"></i> GitHub</div>
+                        <div class="skill-chip"><i class="fas fa-database"></i> MySQL</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2>Mis Proyectos</h2>
+                <p>Algunos de los trabajos que he desarrollado durante mi formación universitaria</p>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Proyecto 1 con Carrusel CORREGIDO -->
+                <div class="project-card">
+                    <div class="project-carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide active">
+                                <img src="img/Proyecto1-1.png" alt="Servimascotas - Vista 1" onerror="this.src='https://via.placeholder.com/600x400/8a2be2/ffffff?text=Servimascotas+1'">
+                                <div class="slide-overlay">1/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/Proyecto1-2.png" alt="Servimascotas - Vista 2" onerror="this.src='https://via.placeholder.com/600x400/d836f1/ffffff?text=Servimascotas+2'">
+                                <div class="slide-overlay">2/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/Proyecto1-3.png" alt="Servimascotas - Vista 3" onerror="this.src='https://via.placeholder.com/600x400/ff2a9d/ffffff?text=Servimascotas+3'">
+                                <div class="slide-overlay">3/3</div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-prev" aria-label="Imagen anterior">‹</button>
+                            <div class="carousel-indicators">
+                                <span class="indicator active" data-index="0"></span>
+                                <span class="indicator" data-index="1"></span>
+                                <span class="indicator" data-index="2"></span>
+                            </div>
+                            <button class="carousel-next" aria-label="Siguiente imagen">›</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Servimascotas</h3>
+                        <p>Plataforma para publicar y buscar servicios para mascotas, el usuario puede crear un perfil y publicar sus servicios disponibles y las personas pueden buscarlo y contactarse con él (mandar notificaciones)</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+            <div class="project-card">
+                    <div class="project-carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide active">
+                                <img src="img/Proyecto2-1.png" alt="Servimascotas - Vista 1" onerror="this.src='https://via.placeholder.com/600x400/8a2be2/ffffff?text=Servimascotas+1'">
+                                <div class="slide-overlay">1/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/Proyecto2-2.png" alt="Servimascotas - Vista 2" onerror="this.src='https://via.placeholder.com/600x400/d836f1/ffffff?text=Servimascotas+2'">
+                                <div class="slide-overlay">2/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/proyecto2-3.png" alt="Servimascotas - Vista 3" onerror="this.src='https://via.placeholder.com/600x400/ff2a9d/ffffff?text=Servimascotas+3'">
+                                <div class="slide-overlay">3/3</div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-prev" aria-label="Imagen anterior">‹</button>
+                            <div class="carousel-indicators">
+                                <span class="indicator active" data-index="0"></span>
+                                <span class="indicator" data-index="1"></span>
+                                <span class="indicator" data-index="2"></span>
+                            </div>
+                            <button class="carousel-next" aria-label="Siguiente imagen">›</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Proyecto web de visualización, recursos y proyectos académicos de la especialidad de programación en CBTis 152.</h3>
+                        <p>Plataforma web educativa para dar a conocer la especialicación en programación y fomentar la colaboración, formación y competencias en programación entre los alumnos y docentes de CBTis 152.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide active">
+                                <img src="img/Proyecto3-1.png" alt="Servimascotas - Vista 1" onerror="this.src='https://via.placeholder.com/600x400/8a2be2/ffffff?text=Servimascotas+1'">
+                                <div class="slide-overlay">1/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/Proyecto3-2.png" alt="Servimascotas - Vista 2" onerror="this.src='https://via.placeholder.com/600x400/d836f1/ffffff?text=Servimascotas+2'">
+                                <div class="slide-overlay">2/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/Proyecto3-3.png" alt="Servimascotas - Vista 3" onerror="this.src='https://via.placeholder.com/600x400/ff2a9d/ffffff?text=Servimascotas+3'">
+                                <div class="slide-overlay">3/3</div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-prev" aria-label="Imagen anterior">‹</button>
+                            <div class="carousel-indicators">
+                                <span class="indicator active" data-index="0"></span>
+                                <span class="indicator" data-index="1"></span>
+                                <span class="indicator" data-index="2"></span>
+                            </div>
+                            <button class="carousel-next" aria-label="Siguiente imagen">›</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Punto de venta</h3>
+                        <p>Plataforma de comercio electrónico especializada en productos electrónicos, que cuenta con integración avanzada de la API de PayPal para la gestión segura y eficiente de pagos en línea. </p>
+                        <div class="project-tags">
+                            <span class="project-tag">PHP</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-carousel">
+                        <div class="carousel-track">
+                            <div class="carousel-slide active">
+                                <img src="img/Proyecto4-1.png" alt="Servimascotas - Vista 1" onerror="this.src='https://via.placeholder.com/600x400/8a2be2/ffffff?text=Servimascotas+1'">
+                                <div class="slide-overlay">1/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/Proyecto4-2.png" alt="Servimascotas - Vista 2" onerror="this.src='https://via.placeholder.com/600x400/d836f1/ffffff?text=Servimascotas+2'">
+                                <div class="slide-overlay">2/3</div>
+                            </div>
+                            <div class="carousel-slide">
+                                <img src="img/Proyecto4-3.png" alt="Servimascotas - Vista 3" onerror="this.src='https://via.placeholder.com/600x400/ff2a9d/ffffff?text=Servimascotas+3'">
+                                <div class="slide-overlay">3/3</div>
+                            </div>
+                        </div>
+                        <div class="carousel-controls">
+                            <button class="carousel-prev" aria-label="Imagen anterior">‹</button>
+                            <div class="carousel-indicators">
+                                <span class="indicator active" data-index="0"></span>
+                                <span class="indicator" data-index="1"></span>
+                                <span class="indicator" data-index="2"></span>
+                            </div>
+                            <button class="carousel-next" aria-label="Siguiente imagen">›</button>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Control de pagos</h3>
+                        <p>Sistema de pagos para proyectos de TI, en el cual se puede visualizar reportes de costos y ganacias de cada uno de los proyectos, tipos de pagos (membresias y empleados), pagos pendientes y actividades por hacer.</p>
+                        <div class="project-tags">
+                            <span class="project-tag">JavaScript</span>
+                            <span class="project-tag">Laravel</span>
+                            <span class="project-tag">MySQL</span>
+                            <span class="project-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">Sorayda <span>Santin</span></div>
+                
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/sorayda-santin-hern%C3%A1ndez-4191532b6?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B2oBchyLWTU%2BjesaYT1iYiA%3D%3D"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+            
+            <div class="copyright">
+                <p>&copy; 2025 Sorayda Santin.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+          // JavaScript MEJORADO para el carrusel
+        document.addEventListener('DOMContentLoaded', function() {
+            const carousels = document.querySelectorAll('.project-carousel');
+            
+            carousels.forEach(carousel => {
+                const track = carousel.querySelector('.carousel-track');
+                const slides = carousel.querySelectorAll('.carousel-slide');
+                const prevBtn = carousel.querySelector('.carousel-prev');
+                const nextBtn = carousel.querySelector('.carousel-next');
+                const indicators = carousel.querySelectorAll('.indicator');
+                
+                let currentSlide = 0;
+                const totalSlides = slides.length;
+                
+                // Función para actualizar el carrusel - CORREGIDA
+                function updateCarousel() {
+                    // Ocultar todos los slides primero
+                    slides.forEach(slide => {
+                        slide.classList.remove('active');
+                    });
+                    
+                    // Mostrar solo el slide actual
+                    slides[currentSlide].classList.add('active');
+                    
+                    // Actualizar indicadores
+                    indicators.forEach((indicator, index) => {
+                        indicator.classList.toggle('active', index === currentSlide);
+                    });
+                }
+                
+                // Event listeners - CORREGIDOS
+                prevBtn.addEventListener('click', function() {
+                    currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                    updateCarousel();
+                });
+                
+                nextBtn.addEventListener('click', function() {
+                    currentSlide = (currentSlide + 1) % totalSlides;
+                    updateCarousel();
+                });
+                
+                indicators.forEach((indicator, index) => {
+                    indicator.addEventListener('click', function() {
+                        currentSlide = index;
+                        updateCarousel();
+                    });
+                });
+                
+                // Precargar imágenes para evitar problemas de carga
+                slides.forEach(slide => {
+                    const img = slide.querySelector('img');
+                    if (img) {
+                        const tempImg = new Image();
+                        tempImg.src = img.src;
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
